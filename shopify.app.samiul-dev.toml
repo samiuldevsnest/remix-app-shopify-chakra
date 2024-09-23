@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "e7a4663ee05c6396e42eed9d6baee08a"
+name = "samiul-dev"
+handle = "samiul-dev"
+application_url = "https://consequences-asking-throw-fax.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-5705d3d9.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://consequences-asking-throw-fax.trycloudflare.com/auth/callback",
+  "https://consequences-asking-throw-fax.trycloudflare.com/auth/shopify/callback",
+  "https://consequences-asking-throw-fax.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false
